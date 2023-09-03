@@ -69,6 +69,7 @@ main hr {
 
 .leftSection .buttons{
   padding: 50px 0;
+  
 }
 
 .leftSection .btn{
@@ -79,6 +80,7 @@ main hr {
   border-radius: 6px;
   font-size: 20px;
   cursor: pointer;
+  margin-right: 15px;
 }
 
 .rightSection img {
@@ -119,7 +121,7 @@ main hr {
 }
 
 .secondSection .vertical {
-  height: 93px;
+  height: 93px ;
   width: 1px;
   background-color: white;
   margin: 0 6vw;
@@ -173,7 +175,11 @@ footer .footer-rights{
   padding: 12px 0;
 }
 
-@media screen and (max-width: 1500px) 
+.footer .f1, .f2, .f3{
+  color: rgb(187, 173, 210);
+}
+
+@media screen and (max-width: 1000px) 
 {
   body{
       background-color:rgb(12, 11, 11);
@@ -188,6 +194,15 @@ footer .footer-rights{
 
   .vertical-title, .vertical-desc{
       left: 45px;
+  }
+
+  .vertical-title{
+    top: 9px;
+
+  }
+
+  .vertical-desc{
+    top: 12px;
   }
 
   .secondSection .box{
@@ -238,9 +253,11 @@ footer .footer-rights{
 
 body{
   min-width: fit-content;
+  
+  
 }
 
 .img-top{
-  top: 133px;
+  top: 32px;
 }
 }

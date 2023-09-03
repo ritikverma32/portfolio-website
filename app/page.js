@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -25,12 +26,14 @@ export default function Home() {
                 
                 <div>Hi! My name is <span className="purple">Ritik Verma.</span></div>
                 
-                <div>I am a passionate</div>
+                <div>I am a passionate Frontend Developer.</div>
                 <span id="element"></span>
             
             <div className="buttons">
                 <button className="btn">Download Resume</button>
-                <button className="btn">Visit Github</button>
+                <a href='https://github.com/ritikverma32'>
+                <button className="btn" >Visit Github</button>
+                </a>
             </div>
             </div>
             <div className="rightSection">
@@ -39,80 +42,70 @@ export default function Home() {
         </section>
         <hr/>
         <section className="secondSection">
-            <span className="text-gray">what I have done so far</span>
+            <span className="text-gray">Projects I have done so far</span>
             <h1>Work Experience</h1>
             <div className="box">
 
                 <div className="vertical">
-                    <img className="img-top" src="developer.png" alt=""/>
+                    <img className="img-top" src="myntra.png" alt=""/>
                     <div className="vertical-title">
-                        HTML Developer (2021-2023)
+                        Myntra clone
                     </div>
                     <div className="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis libero aperiam
-                        nobis
-                        aliquid minus. Placeat eaque cumque maiores eligendi recusandae obcaecati aspernatur.
+                    Made Homepage of myntra site using HTML and CSS.
                     </div>
                 </div>
 
 
                 <div className="vertical">
-                    <img className="img-top" src="developer.png" alt=""/>
+                    <img className="img-top" src="paneer.png" alt=""/>
                     <div className="vertical-title">
-                        Node.js Developer (2021-2023)
+                        
+                    Food app UI     
                     </div>
                     <div className="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis libero aperiam
-                        nobis
-                        aliquid minus. Placeat eaque cumque maiores eligendi recusandae obcaecati aspernatur.
+                    Designed user interface for an food app.
                     </div>
                 </div>
 
                 <div className="vertical">
-                    <img className="img-top" src="developer.png" alt=""/>
+                    <img className="img-top" src="logo512.png" alt=""/>
                     <div className="vertical-title">
-                        HTML Developer (2021-2023)
+                    Todos list
                     </div>
                     <div className="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis libero aperiam
-                        nobis
-                        aliquid minus. Placeat eaque cumque maiores eligendi recusandae obcaecati aspernatur.
+                    A simple Todos list using html, css, react and jsx
                     </div>
                 </div>
 
                 <div className="vertical">
-                    <img className="img-top" src="developer.png" alt=""/>
+                    <img className="img-top" src="flipkart.png" alt=""/>
                     <div className="vertical-title">
-                        HTML Developer (2021-2023)
+                        Flipkart homepage
                     </div>
                     <div className="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis libero aperiam
-                        nobis
-                        aliquid minus. Placeat eaque cumque maiores eligendi recusandae obcaecati aspernatur.
+                    
+                        I have tried to copy the homepage of flipkart with the help of pure html and css.
                     </div>
                 </div>
 
                 <div className="vertical">
-                    <img className="img-top" src="developer.png" alt=""/>
+                    <img className="img-top" src="logo.png" alt=""/>
                     <div className="vertical-title">
-                        HTML Developer (2021-2023)
+                    spotify clone
                     </div>
                     <div className="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis libero aperiam
-                        nobis
-                        aliquid minus. Placeat eaque cumque maiores eligendi recusandae obcaecati aspernatur.
+                    Homepage of a music player site
                     </div>
                 </div>
 
                 <div className="vertical">
                     <img className="img-top" src="developer.png" alt=""/>
                     <div className="vertical-title">
-                        HTML Developer (2021-2023)
+                        Portfolio-site
                     </div>
                     <div className="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis libero aperiam
-                        nobis
-                        aliquid minus. Placeat eaque cumque maiores eligendi recusandae obcaecati aspernatur.
+                        I have created my personal portfolio website using HTML, CSS and Next.js .
                     </div>
                 </div>
 
@@ -139,20 +132,20 @@ export default function Home() {
             </div>
             <div className="f3">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Services</li>
+                    <li>Sitemap</li>
+                    <li>Important Links</li>
+                    <li>Chat with us</li>
+                    
                 </ul>
             </div>
-            <div className="f4">
+            {/* <div className="f4">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
                     <li>Contact</li>
                     <li>Services</li>
                 </ul>
-            </div>
+            </div> */}
         </div>
         <div className="footer-rights">
             Copyright &#169; www.ritiksportfolio.com | All Rights Reserved
