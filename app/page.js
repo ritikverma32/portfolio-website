@@ -47,10 +47,14 @@ export default function Home() {
             <div className="box">
 
                 <div className="vertical">
+                  
                     <img className="img-top" src="myntra.png" alt=""/>
+                    
+                    <a href='https://silly-douhua-fbdf31.netlify.app/'>
                     <div className="vertical-title">
                         Myntra clone
                     </div>
+                    </a>
                     <div className="vertical-desc">
                     Made Homepage of myntra site using HTML and CSS.
                     </div>
@@ -59,10 +63,12 @@ export default function Home() {
 
                 <div className="vertical">
                     <img className="img-top" src="paneer.png" alt=""/>
+                    <a href='https://www.figma.com/file/1uIDnvnOy0tBMxwb2cNNV6/Food-app-2.O?type=design&mode=design&t=48NHaOFu63MmxSa6-0'>
                     <div className="vertical-title">
                         
                     Food app UI     
                     </div>
+                    </a>
                     <div className="vertical-desc">
                     Designed user interface for an food app.
                     </div>
@@ -80,9 +86,11 @@ export default function Home() {
 
                 <div className="vertical">
                     <img className="img-top" src="flipkart.png" alt=""/>
+                    <a href='https://quiet-narwhal-a1621e.netlify.app/'>
                     <div className="vertical-title">
                         Flipkart homepage
                     </div>
+                    </a>
                     <div className="vertical-desc">
                     
                         I have tried to copy the homepage of flipkart with the help of pure html and css.
@@ -91,9 +99,11 @@ export default function Home() {
 
                 <div className="vertical">
                     <img className="img-top" src="logo.png" alt=""/>
+                    <a href='https://deft-faun-5cbef2.netlify.app/'>
                     <div className="vertical-title">
                     spotify clone
                     </div>
+                    </a>
                     <div className="vertical-desc">
                     Homepage of a music player site
                     </div>
@@ -101,9 +111,11 @@ export default function Home() {
 
                 <div className="vertical">
                     <img className="img-top" src="developer.png" alt=""/>
+                    <a href='https://ritiksportfolio.netlify.app/'>
                     <div className="vertical-title">
                         Portfolio-site
                     </div>
+                    </a>
                     <div className="vertical-desc">
                         I have created my personal portfolio website using HTML, CSS and Next.js .
                     </div>
